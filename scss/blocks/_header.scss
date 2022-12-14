@@ -1,0 +1,40 @@
+.header {
+    padding-top: 32px;
+    padding-bottom: 33px;
+    border-bottom:  1px solid #F0ECE8;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 40px;
+}
+.header-nav{
+    margin-right: 573px;
+}
+.header-nav-list {
+    display: flex;
+}
+.header-nav-item{
+   margin-right: 26px;
+   &:last-child{
+    margin-right: 0;
+   }
+}
+.header-item-link {
+    font-family: 'DM Sans';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.header-link-wrapper{
+    display: flex;
+    align-items: center;
+}
+.header-bag-link{
+    margin-right: 24px;
+}

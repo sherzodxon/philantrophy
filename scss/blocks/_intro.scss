@@ -21,7 +21,8 @@
     margin-bottom: 16px;
     padding-top: 29px;
     position: relative;
-    &::after{
+
+    &::after {
         position: absolute;
         width: 140px;
         height: 4px;
@@ -32,12 +33,13 @@
     }
 }
 
-.intro-text{
+.intro-text {
     margin-bottom: 67px;
 }
-.intro-link{
-font-size: 18px;
-line-height: 20px;
-letter-spacing: 0em;
-padding: 23px 38px 28px 38px;
+
+.intro-link {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding: 23px 38px 28px 38px;
 }

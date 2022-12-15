@@ -69,8 +69,9 @@
     margin-bottom: 32px;
     height: 530px;
 }
-.about-second-img{
-height: 391px;
+
+.about-second-img {
+    height: 391px;
 }
 
 .about-text-wrapper {
@@ -99,7 +100,8 @@ height: 391px;
     letter-spacing: 0em;
     margin-bottom: 26px;
     position: relative;
-    &::after{
+
+    &::after {
         width: 26px;
         height: 26px;
         position: absolute;

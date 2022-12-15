@@ -18,18 +18,22 @@
     text-align: center;
 
 }
-.status-item{
-    &:nth-child(1){
+
+.status-item {
+    &:nth-child(1) {
         margin-right: 165px;
     }
-    &:nth-child(2){
+
+    &:nth-child(2) {
         margin-right: 194px;
     }
-    &:nth-child(3){
+
+    &:nth-child(3) {
         margin-right: 130px;
     }
 
 }
+
 .status-item-span {
     color: var(--yellow);
 }

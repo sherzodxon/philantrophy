@@ -1,0 +1,84 @@
+.result {
+    margin-top: 400px;
+    margin-bottom: 200px;
+}
+
+.result-container {
+    display: flex;
+}
+
+.result-text-wrapper {
+    margin-top: 88px;
+    margin-right: 116px;
+}
+
+.result-info {
+    margin-bottom: 20px;
+}
+
+.result-title {
+    width: 449px;
+    margin-bottom: 29px;
+}
+
+.result-list {
+    width: 520px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 33px;
+    margin-bottom: 100px;
+}
+
+.result-item {
+    padding-left: 92px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        width: 76px;
+        height: 76px;
+        content: '';
+        border-radius: 50%;
+        background-color: var(--pink);
+        left: 0;
+        top: calc(50% - 38px);
+
+    }
+    &:nth-child(1){
+        &::after{
+            background: url(../../img/liters.svg) no-repeat center center;
+        }
+    }
+    &:nth-child(2){
+        &::after{
+            background: url(../../img/houses.svg) no-repeat center center;
+        }
+    }
+    &:nth-child(3){
+        &::after{
+            background: url(../../img/ball.svg) no-repeat center center;
+        }
+    }
+    &:nth-child(4){
+        &::after{
+            background: url(../../img/school.svg) no-repeat center center;
+        }
+    }
+}
+
+.result-item-info {
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+}
+
+.result-item-text {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 9px;
+}
+.result-link{
+    padding: 23px 38px 28px 38px;
+   
+}

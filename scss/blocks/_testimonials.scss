@@ -1,0 +1,118 @@
+.testimonials-join {
+    position: absolute;
+    top: -218px;
+    z-index: 2;
+    right: calc(50% - 610px);
+}
+
+.testimonials-join-container {
+    width: 1220px;
+    padding: 0;
+    background: var(--yellow);
+    padding: 162px 60px 158px 60px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials-join-text {
+    width: 487px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+}
+
+.testimonials {
+    margin-top: 418px;
+    padding-top: 418px;
+    padding-bottom: 252px;
+    background: rgba(254, 249, 242, 1);
+    z-index: -1;
+    position: relative;
+}
+
+.testimonials-container {
+    display: flex
+}
+
+.testimonials-img {
+    height: 635px;
+    margin-right: 108px;
+}
+
+.testimonials-text-wrapper {
+    margin-top: 100px;
+}
+
+.testimonials-text-title {
+    width: 435px;
+    margin-top: 20px;
+    font-size: 42px;
+    line-height: 58px;
+}
+
+.testimonials-text {
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.testimonials-status {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 20px;
+
+}
+
+.testimonials-link {
+    padding: 26px 37px 25px 36px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.last-test-status {
+    margin-bottom: 78px;
+}
+
+.testimonials-absolute {
+    position: absolute;
+    z-index: 99;
+    background-color: #fff;
+    width: 388px;
+    box-shadow: 0px 2px 12px 0px rgba(43, 43, 43, 0.06);
+    border: 1px solid rgba(240, 236, 232, 1);
+    border-radius: 12px;
+    padding: 67px 42px 66px 40px;
+    bottom: 200px;
+    right: 706px;
+}
+
+.testimonials-abs-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 304px;
+    margin-bottom: 17px;
+}
+
+.testimonials-after {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.testimonials-country {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #989898;
+}

@@ -1,0 +1,111 @@
+.about {
+
+    margin-top: 273px;
+}
+
+.about-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-photos-wrapper {
+    display: grid;
+    grid-template-columns: 576px 576px;
+    column-gap: 28px;
+    margin-top: 17px;
+}
+
+.about-title-info {
+    text-transform: uppercase;
+    color: var(--yellow);
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.2000000476837158px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.about-info {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 517px;
+}
+
+.about-link-wrapper {
+    margin-top: 25px;
+}
+
+.about-donate-link {
+    padding: 23px 38px 28px 38px;
+}
+
+.about-link {
+    font-size: 17px;
+    padding: 23px 37px 28px 37px;
+    margin-left: 28px;
+}
+
+.about-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-top: 3px;
+    margin-bottom: 52px;
+}
+
+.about-first-img {
+    margin-bottom: 32px;
+    height: 530px;
+}
+.about-second-img{
+height: 391px;
+}
+
+.about-text-wrapper {
+    margin-top: 50px;
+    margin-left: 12px;
+}
+
+
+.about-text {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: var(--gray);
+    margin-bottom: 21px;
+
+}
+
+.about-status {
+    padding-left: 42px;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-bottom: 26px;
+    position: relative;
+    &::after{
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        content: '';
+        background: url(../../img/ok-yellow.svg) no-repeat center center;
+        left: 0;
+        top: calc(50% - 13px);
+    }
+}

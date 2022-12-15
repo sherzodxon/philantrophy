@@ -55,17 +55,26 @@ p {
   --black: #090909;
   --gray: #6e6e6e;
 }
-.donate-link{
+
+.donate-link {
   padding: 16px 24px 20px 24px;
- border-radius: 10px;
- background-color: var(--yellow);
+  border-radius: 10px;
+  background-color: var(--yellow);
+  font-family: 'DM Sans';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+
 }
-.title{
-font-size: 42px;
-font-weight: 700;
-line-height: 58px;
-letter-spacing: 0em;
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
 }
+
 .text {
   font-family: 'DM Sans';
   font-size: 24px;
@@ -74,11 +83,14 @@ letter-spacing: 0em;
   letter-spacing: 0em;
   color: var(--gray);
 }
-.about-link{
+
+.about-link {
   padding: 26px 31px 25px 31px;
   border: 1px solid #f0ece8;
-font-size: 18px;
-line-height: 20px;
-letter-spacing: 0em;
-border-radius: 10px;
+  font-family: 'DM Sans';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  border-radius: 10px;
 }

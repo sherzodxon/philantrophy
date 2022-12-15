@@ -5,7 +5,6 @@
 }
 
 .about-container {
-    width: 1200px;
     margin: 0 auto;
 }
 
@@ -16,9 +15,9 @@
 
 .about-photos-wrapper {
     display: grid;
-    grid-template-columns: 576px 576px;
+    grid-template-columns: 596px 596px;
     column-gap: 28px;
-    margin-top: 17px;
+    margin-top: 10px;
 }
 
 .about-title-info {
@@ -51,24 +50,22 @@
     padding: 23px 38px 28px 38px;
 }
 
-.about-link {
-    font-size: 17px;
-    padding: 23px 37px 28px 37px;
-    margin-left: 28px;
-}
 
 .about-text {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
-    margin-top: 3px;
+    margin-top: 8px;
     margin-bottom: 52px;
 }
 
 .about-first-img {
-    margin-bottom: 32px;
+    margin-bottom: 28px;
     height: 530px;
+}
+.about-imgs{
+    width: 596px;
 }
 
 .about-second-img {
@@ -76,11 +73,27 @@
 }
 
 .about-text-wrapper {
-    margin-top: 50px;
+    margin-top: 45px;
     margin-left: 12px;
 }
+.about-about-link{
+    padding: 23px 39px 27px 39px;
+    font-size: 17px;
+line-height: 20px;
+margin-left: 25px;
+}
 
-
+.about-first-text{
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: var(--gray);
+    margin-top: 9px;
+    margin-bottom: 51px;
+    width: 576px;
+}
 .about-text {
     font-family: 'DM Sans';
     font-size: 18px;
@@ -88,7 +101,8 @@
     line-height: 30px;
     letter-spacing: 0em;
     color: var(--gray);
-    margin-bottom: 21px;
+    margin-bottom: 22px;
+    width: 576px;
 
 }
 

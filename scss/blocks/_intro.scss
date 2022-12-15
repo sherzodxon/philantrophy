@@ -1,6 +1,7 @@
-.intro{
-margin-bottom: -132px;
+.intro {
+    margin-bottom: -132px;
 }
+
 .intro-container {
     width: 1350px;
     margin-right: 0;
@@ -11,7 +12,7 @@ margin-bottom: -132px;
 }
 
 .intro-text-wrapper {
-    margin-right: 56px;
+    margin-right: 50px;
     margin-top: 207px;
 }
 
@@ -37,7 +38,12 @@ margin-bottom: -132px;
 }
 
 .intro-text {
-    margin-bottom: 67px;
+    margin-bottom: 44px;
+}
+
+.intro-links-wrapper {
+    display: flex;
+    align-items: flex-end;
 }
 
 .intro-link {
@@ -45,4 +51,12 @@ margin-bottom: -132px;
     line-height: 20px;
     letter-spacing: 0em;
     padding: 23px 38px 28px 38px;
+}
+
+.intro-link-about {
+    padding: 23px 34px 25px 35px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 28px;
 }

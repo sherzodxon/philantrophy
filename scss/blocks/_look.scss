@@ -28,19 +28,26 @@
 }
 
 .look-about-link {
-    padding: 26px 28px 26px 29px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 24px 36px 24px 35px;
     background-color: #fff;
+    margin-left: 25px;
 }
 
 .look-img {
     width: 1220px;
-    margin-top: - 344px;
+    margin-top: - 337px;
 }
 
 .look-list {
     display: flex;
-    margin-top: 80px;
-    justify-content: space-between;
+    margin-top: 77px;
+}
+
+.look-item:first-child {
+    margin-right: 74px;
 }
 
 .look-item-title {
@@ -56,10 +63,12 @@
     line-height: 30px;
     width: 570px;
 }
-.look-item-second-title{
+
+.look-item-second-title {
     width: 573px;
 }
-.look-container{
-    padding-bottom: 195px;
-    border-bottom: 1px solid var(--gray);
+
+.look-container {
+    padding-bottom: 176px;
+    border-bottom: 1px solid var(--pink);
 }

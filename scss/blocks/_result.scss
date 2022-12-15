@@ -1,7 +1,7 @@
 .result {
-    margin-top: 200px;
+    margin-top: 194px;
     margin-bottom: 200px;
-    
+
 }
 
 .result-container {
@@ -27,7 +27,8 @@
     display: grid;
     grid-template-columns: auto auto;
     row-gap: 33px;
-    margin-bottom: 100px;
+    column-gap: 91px;
+    margin-bottom: 97px;
 }
 
 .result-item {
@@ -45,23 +46,31 @@
         top: calc(50% - 38px);
 
     }
-    &:nth-child(1){
-        &::after{
+
+    &:nth-child(1) {
+        &::after {
             background: url(../../img/liters.svg) no-repeat center center;
         }
     }
-    &:nth-child(2){
-        &::after{
+
+    &:nth-child(2) {
+        &::after {
             background: url(../../img/houses.svg) no-repeat center center;
         }
     }
-    &:nth-child(3){
-        &::after{
+
+    &:nth-child(3) {
+        &::after {
             background: url(../../img/ball.svg) no-repeat center center;
         }
     }
-    &:nth-child(4){
-        &::after{
+
+    &:nth-child(4) {
+        padding-left: 88px;
+        margin-top: -2px;
+        left: -4px;
+
+        &::after {
             background: url(../../img/school.svg) no-repeat center center;
         }
     }
@@ -79,7 +88,12 @@
     line-height: 20px;
     margin-top: 9px;
 }
-.result-link{
+
+.result-link {
     padding: 23px 38px 28px 38px;
-   
+
+}
+
+.result-link {
+    padding: 21px 38px 26px 38px;
 }

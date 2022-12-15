@@ -503,6 +503,10 @@ p {
   margin-right: 24px;
 }
 
+.intro {
+  margin-bottom: -132px;
+}
+
 .intro-container {
   width: 1350px;
   margin-right: 0;
@@ -550,6 +554,8 @@ p {
 
 .status {
   margin-top: 82px;
+  background: rgb(254, 249, 242);
+  padding-top: 134px;
 }
 
 .status-list {
@@ -590,7 +596,9 @@ p {
 }
 
 .about {
-  margin-top: 273px;
+  background: rgb(254, 249, 242);
+  padding-top: 273px;
+  padding-bottom: 200px;
 }
 
 .about-container {
@@ -700,7 +708,7 @@ p {
 }
 
 .result {
-  margin-top: 400px;
+  margin-top: 200px;
   margin-bottom: 200px;
 }
 
@@ -772,4 +780,72 @@ p {
 
 .result-link {
   padding: 23px 38px 28px 38px;
+}
+
+.look-info {
+  text-align: center;
+  background-color: var(--pink);
+  padding-top: 198px;
+}
+
+.look-title {
+  font-size: 20px;
+  line-height: 22px;
+  color: var(--black);
+  margin-bottom: 20px;
+}
+
+.look-text {
+  width: 752px;
+  margin: 0 auto;
+}
+
+.look-link-wrapper {
+  margin-top: 62px;
+  padding-bottom: 426px;
+}
+
+.look-donate-link {
+  padding: 23px 38px 28px 38px;
+  background-color: var(--black);
+  color: #fff;
+}
+
+.look-about-link {
+  padding: 26px 28px 26px 29px;
+  background-color: #fff;
+}
+
+.look-img {
+  width: 1220px;
+  margin-top: -344px;
+}
+
+.look-list {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+.look-item-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  margin-bottom: 11px;
+}
+
+.look-item-text {
+  font-size: 18px;
+  line-height: 30px;
+  width: 570px;
+}
+
+.look-item-second-title {
+  width: 573px;
+}
+
+.look-container {
+  padding-bottom: 195px;
+  border-bottom: 1px solid var(--gray);
 }/*# sourceMappingURL=main.css.map */

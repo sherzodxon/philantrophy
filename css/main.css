@@ -936,4 +936,27 @@ p {
   text-align: center;
   color: #6E6E6E;
   width: 312px;
+}
+
+.join {
+  margin-top: 200px;
+}
+
+.join-container {
+  width: 1220px;
+  padding: 0;
+  background-color: var(--yellow);
+  padding: 162px 60px 158px 60px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.join-text {
+  width: 487px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
 }/*# sourceMappingURL=main.css.map */
